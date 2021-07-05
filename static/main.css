@@ -1,0 +1,137 @@
+@import url("https://fonts.googleapis.com/css2?family=Frijole&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --main-font: "Frijole", cursive;
+}
+body {
+  background-color: #f5f5f5;
+}
+
+.container {
+  padding: 2em;
+  display: grid;
+  place-content: center;
+}
+
+.uploadsection {
+  text-align: center;
+}
+
+p {
+  margin-top: 1em;
+}
+
+.alert-success {
+  color: #208430;
+  background: #B3FF8F;
+  padding: 0.5em;
+  margin: 1em 0;
+  line-height: 2em;
+  text-align: center;
+}
+
+.alert-danger {
+  padding: 0.5em;
+    color: #ff1e00;
+    text-align: center;
+}
+
+.resulttitle{
+  text-align: center;
+  font-size: 22px;
+  color: #10dc60;
+}
+
+.soilsampleresult {
+  text-align: center;
+  letter-spacing: 1px;
+  line-height: 2em;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+form {
+  padding: 1em 0;
+}
+
+form input {
+  display: block;
+}
+
+.imagegroup {
+  position: relative;
+}
+
+
+.playlistcoverimage {
+  object-fit: cover;
+  width: 100%;
+}
+
+.submitbutton{
+  padding: 15px 9px;
+    width: 100%;
+    margin-top: 1em;
+    border-color: #000000;
+    background: #000000;
+    border: none;
+    color: white;
+    font-weight: bold;
+    line-height: 2em;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    outline: none;
+}
+
+.newexperiment {
+  padding: 15px 9px;
+    width: 100%;
+    margin-top: 1em;
+    border-color: #000000;
+    background: #000000;
+    border: none;
+    color: white;
+    font-weight: bold;
+    line-height: 2em;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    outline: none;
+
+}
+
+file-input-createplaylist{
+  display: grid;
+    justify-items: center;
+}
+
+.inputicon {
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  left: 50%;
+  place-content: center;
+  z-index: 1;
+  color: white;
+}
+
+.inputicon label {
+  margin: 0 auto;
+}
+
+.uploadicons {
+  color: white !important;
+    display: grid;
+    margin: 0 auto;
+    font-size: 60px;
+}
+
+.playlistuloadfile {
+  padding: 10px;
+  background: #2d2d2d;
+  display: none !important;
+}
