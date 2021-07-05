@@ -16,6 +16,8 @@ body {
   padding: 2em;
   display: grid;
   place-content: center;
+  max-width: 373px;
+  margin: 0 auto;
 }
 
 .uploadsection {
@@ -77,8 +79,8 @@ form input {
   padding: 15px 9px;
     width: 100%;
     margin-top: 1em;
-    border-color: #000000;
-    background: #000000;
+    border-color: #17b530;
+    background: #17b530;
     border: none;
     color: white;
     font-weight: bold;
@@ -92,8 +94,8 @@ form input {
   padding: 15px 9px;
     width: 100%;
     margin-top: 1em;
-    border-color: #000000;
-    background: #000000;
+    border-color: #17b530;
+    background: #17b530;
     border: none;
     color: white;
     font-weight: bold;
